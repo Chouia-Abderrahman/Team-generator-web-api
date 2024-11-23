@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite name="my_app.tests.test_create_player.CreatePlayerTestCase-20240801085446" tests="5" file="my_app/tests/test_create_player.py" time="0.031" timestamp="2024-08-01T08:54:46" failures="0" errors="0" skipped="0">
+		<testcase classname="my_app.tests.test_create_player.CreatePlayerTestCase" name="test_successful_player_creation" time="0.017" timestamp="2024-08-01T08:54:46" file="my_app\tests\test_create_player.py" line="26"/>
+		<testcase classname="my_app.tests.test_create_player.CreatePlayerTestCase" name="test_unsuccessful_creation_duplicate_skills" time="0.003" timestamp="2024-08-01T08:54:46" file="my_app\tests\test_create_player.py" line="67"/>
+		<testcase classname="my_app.tests.test_create_player.CreatePlayerTestCase" name="test_unsuccessful_creation_invalid_position" time="0.004" timestamp="2024-08-01T08:54:46" file="my_app\tests\test_create_player.py" line="89"/>
+		<testcase classname="my_app.tests.test_create_player.CreatePlayerTestCase" name="test_unsuccessful_creation_invalid_skill" time="0.004" timestamp="2024-08-01T08:54:46" file="my_app\tests\test_create_player.py" line="115"/>
+		<testcase classname="my_app.tests.test_create_player.CreatePlayerTestCase" name="test_unsuccessful_creation_no_skills" time="0.003" timestamp="2024-08-01T08:54:46" file="my_app\tests\test_create_player.py" line="54"/>
+	</testsuite>
+	<testsuite name="my_app.tests.test_delete_player.DeletePlayerTestCase-20240801085446" tests="4" file="my_app/tests/test_delete_player.py" time="0.012" timestamp="2024-08-01T08:54:46" failures="0" errors="0" skipped="0">
+		<testcase classname="my_app.tests.test_delete_player.DeletePlayerTestCase" name="test_delete_nonexistent_player" time="0.003" timestamp="2024-08-01T08:54:46" file="my_app\tests\test_delete_player.py" line="49"/>
+		<testcase classname="my_app.tests.test_delete_player.DeletePlayerTestCase" name="test_delete_player" time="0.004" timestamp="2024-08-01T08:54:46" file="my_app\tests\test_delete_player.py" line="26"/>
+		<testcase classname="my_app.tests.test_delete_player.DeletePlayerTestCase" name="test_delete_player_invalid_token" time="0.003" timestamp="2024-08-01T08:54:46" file="my_app\tests\test_delete_player.py" line="34"/>
+		<testcase classname="my_app.tests.test_delete_player.DeletePlayerTestCase" name="test_delete_player_no_token" time="0.002" timestamp="2024-08-01T08:54:46" file="my_app\tests\test_delete_player.py" line="43"/>
+	</testsuite>
+	<testsuite name="my_app.tests.test_list_player.ListPlayerTestCase-20240801085446" tests="1" file="my_app/tests/test_list_player.py" time="0.020" timestamp="2024-08-01T08:54:46" failures="0" errors="0" skipped="0">
+		<testcase classname="my_app.tests.test_list_player.ListPlayerTestCase" name="test_sample" time="0.020" timestamp="2024-08-01T08:54:46" file="my_app\tests\test_list_player.py" line="23"/>
+	</testsuite>
+	<testsuite name="my_app.tests.test_process_team.ProcessTeamTestCase-20240801085446" tests="6" file="my_app/tests/test_process_team.py" time="0.045" timestamp="2024-08-01T08:54:46" failures="0" errors="0" skipped="0">
+		<testcase classname="my_app.tests.test_process_team.ProcessTeamTestCase" name="test_different_skills_for_same_position" time="0.013" timestamp="2024-08-01T08:54:46" file="my_app\tests\test_process_team.py" line="79"/>
+		<testcase classname="my_app.tests.test_process_team.ProcessTeamTestCase" name="test_duplicate_skill_requirement_for_position" time="0.006" timestamp="2024-08-01T08:54:46" file="my_app\tests\test_process_team.py" line="70"/>
+		<testcase classname="my_app.tests.test_process_team.ProcessTeamTestCase" name="test_insufficient_players_for_position" time="0.004" timestamp="2024-08-01T08:54:46" file="my_app\tests\test_process_team.py" line="43"/>
+		<testcase classname="my_app.tests.test_process_team.ProcessTeamTestCase" name="test_no_players_with_required_skill" time="0.007" timestamp="2024-08-01T08:54:46" file="my_app\tests\test_process_team.py" line="51"/>
+		<testcase classname="my_app.tests.test_process_team.ProcessTeamTestCase" name="test_select_based_on_highest_skill_when_no_main_skill" time="0.007" timestamp="2024-08-01T08:54:46" file="my_app\tests\test_process_team.py" line="60"/>
+		<testcase classname="my_app.tests.test_process_team.ProcessTeamTestCase" name="test_sufficient_players_for_position" time="0.008" timestamp="2024-08-01T08:54:46" file="my_app\tests\test_process_team.py" line="35"/>
+	</testsuite>
+	<testsuite name="my_app.tests.test_update_player.UpdatePlayerTestCase-20240801085446" tests="2" file="my_app/tests/test_update_player.py" time="0.013" timestamp="2024-08-01T08:54:46" failures="0" errors="0" skipped="0">
+		<testcase classname="my_app.tests.test_update_player.UpdatePlayerTestCase" name="test_update_nonexistent_player" time="0.003" timestamp="2024-08-01T08:54:46" file="my_app\tests\test_update_player.py" line="61"/>
+		<testcase classname="my_app.tests.test_update_player.UpdatePlayerTestCase" name="test_update_player" time="0.010" timestamp="2024-08-01T08:54:46" file="my_app\tests\test_update_player.py" line="40"/>
+	</testsuite>
+</testsuites>
